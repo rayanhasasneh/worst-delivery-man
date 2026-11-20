@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>The Worst Delivery Man</title>
+  </head>
+  <body>
+    <div id="game">
+      <div id="hud">
+        <div class="brand">🍕 THE WORST DELIVERY MAN</div>
+        <div class="stats">
+          <span>⭐ Score: <b id="score">0</b></span>
+          <span>⏱ Time: <b id="timer">180</b>s</span>
+          <span>📦 Order: <b id="order">Not picked up</b></span>
+        </div>
+        <div id="message">Go to the restaurant and press E to pick up the pizza.</div>
+      </div>
+      <div id="help">WASD: Move · Shift: Run · Space: Jump · E: Interact</div>
+      <div id="event-log"><b>EVENT LOG</b><div id="events"></div></div>
+      <button id="restart" type="button">↻ Restart Game</button>
+      <div id="center-prompt"></div>
+    </div>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
